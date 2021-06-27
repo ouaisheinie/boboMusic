@@ -1,3 +1,27 @@
-# vue3.0 music
+# bobo-music
 
-## 仿网易云音乐app vue3.0项目
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## 目前第7节开始
