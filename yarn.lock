@@ -903,6 +903,32 @@
     "@babel/helper-validator-identifier" "^7.14.5"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/core/-/core-2.4.1.tgz#1f67a9cfe6738f870be5b90b13aafcc188a01e3b"
+  integrity sha512-rVCd5WaMb64UMivzP6E6XSfOAXEH3Lie8p68Gz0E4fIfN39ad7e1OI7JcDiWGeBDd/kMsUBFThJfLc9dL+F15Q==
+  dependencies:
+    "@better-scroll/shared-utils" "^2.4.1"
+
+"@better-scroll/observe-dom@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/observe-dom/-/observe-dom-2.4.1.tgz#d918c1fc2de4e3fa32b302a63c45c9433cf41a24"
+  integrity sha512-0psWTJtMw/38C/VIEWA0gxnZPVGQtkq4CXIxbWPm2/Dh2HOjTFuBsAs7nAJhZxBndCzL0AZV6cjKhcDFXOaI+w==
+  dependencies:
+    "@better-scroll/core" "^2.4.1"
+
+"@better-scroll/shared-utils@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/shared-utils/-/shared-utils-2.4.1.tgz#b5e4e751a023180f1123d2c3773c75a863f71f77"
+  integrity sha512-q93ph942QRa6yWL1Gn0fKZbpHOuVFjjKeJPd6oao2vXaBr5ldC5KubijbrkgSe9SfGDfiVUmT1zvYYhdAFJUZg==
+
+"@better-scroll/slide@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/slide/-/slide-2.4.1.tgz#9086a5c9f20e76c275d940587c422547abb5b3e9"
+  integrity sha512-4aCcqYauJfzpOe1k6hZDF7ulkcD2qfApkftCRQgx26Qa+qVlZM1+ofIyd1WPnaH7/R2R27v5A8RoYx20pBmMnw==
+  dependencies:
+    "@better-scroll/core" "^2.4.1"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.npm.taobao.org/@hapi/address/download/@hapi/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -9207,6 +9233,11 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
+
+vue3-lazy@^1.0.0-alpha.1:
+  version "1.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/vue3-lazy/-/vue3-lazy-1.0.0-alpha.1.tgz#326a56c2ade4430c76b7ac90d33a7fde0af9aaa6"
+  integrity sha512-dpjpKK4DC5q+wZVtS/VY3X6pYBJHxRmYanr20s39RB6o6fvbneQ/DNuz37bipYfEdrEvbSZ95Y2SCexuznQNrQ==
 
 vue@^3.0.0:
   version "3.1.2"
