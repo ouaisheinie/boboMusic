@@ -1,18 +1,21 @@
 <template>
   <div class="loading">
     <div class="loading-content">
-      <img width="24" height="24" src="./loaoding.gif" />
+      <img width="24" height="24" :src="loadingImg" />
       <p class="desc">{{title}}</p>
     </div>
   </div>
 </template>
 
 <script>
+import loadingimg from './loading.gif'
+
 export default {
   name: 'loading',
   data() {
     return {
-      title: ''
+      title: '',
+      loadingImg: loadingimg
     }
   },
   methods: {
