@@ -62,7 +62,7 @@ function registerRecommend(app) {
     const randomVal = getRandomVal('recom')
     // 计算签名值
     const sign = getSecuritySign(data)
-    
+
     // 发送get 请求
     get(url, {
       sign,
@@ -109,7 +109,7 @@ function registerRecommend(app) {
 
           albums.push(albumItem)
         }
-        
+
         // 往前端发送一个标准格式的相应数据，包括成功和错误码和数据
         res.json({
           code: ERR_OK,
