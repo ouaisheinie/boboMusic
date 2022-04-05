@@ -25,11 +25,7 @@ yarn lint
 ```
 
 ### Customize configuration
-<<<<<<< HEAD
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## 目前第7节开始
-=======
-See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> 4125349b71c458079db0e6ff2a85b3c0e94fd6a1
